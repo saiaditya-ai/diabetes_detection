@@ -71,6 +71,23 @@ Each model was optimized using GridSearchCV with 5-fold cross-validation to find
 
 The final model was selected based on F1-score and ROC-AUC performance. After comparing all 8 algorithms, XGBoost emerged as the best performing model, demonstrating superior ability to identify diabetes cases while maintaining optimal balance between precision and recall.
 
+## Visualizations
+
+The notebook generates comprehensive visualizations including:
+
+- Feature Correlation Heatmap
+- Probability Distribution plots (KDE) by outcome for key features
+- Outlier Detection Box Plots for all numerical features
+- Model F1-Score Comparison bar chart
+- Top Models Detailed Metrics comparison
+- PCA Explained Variance curve
+- PCA 2D Projection scatter plot (color-coded by outcome)
+- Confusion Matrix heatmap
+- ROC Curve with AUC score
+- Feature Importance bar chart
+
+All graphs are generated automatically when running the notebook cells.
+
 ## Requirements
 
 - numpy
